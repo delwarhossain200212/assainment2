@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.full-website{
+  
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  width: 1024px;
+  margin: 20px auto;
+
+
+}
+.menu{
+  text-transform: uppercase;
+  background-color: rgb(62, 9, 66);
+  border: 1px solid rgb(155, 153, 42);
+
+}
+.banner{
+margin-bottom:-5px;
+height: auto;
+background-color: rgb(169, 61, 177);
+border: 1px solid rgb(155, 153, 42);
+
+
+}
+.banner img{
+  width: 100%;
+}
+.container{
+background: rgb(83, 6, 90);
+border: 1px solid rgb(155, 153, 42);
+}
+.footer{
+background: rgb(65, 14, 65);
+border: 1px solid rgb(155, 153, 42);
+}
+.footer-bottom{
+  background: rgb(80, 67, 82);
+  border: 1px solid rgb(155, 153, 42);
+
+}
+.op{
+  padding:30px 0 ;
+}
+.eop{
+padding:60px 0 ;
+}
+.footer-bottom p a{
+  color: chartreuse;
+  text-decoration: none;
+}
+
+.social-menu li{
+  display: inline-block;
+}
+.social-menu li a{
+  background-color: rgb(20, 105, 9);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 19px;
+  color: rgb(233, 237, 241);
+  transition: .4s;
+}
+.social-menu li:hover a{
+  background-color: rgb(30, 117, 230);
+  color: rgb(248, 244, 244);
+}
